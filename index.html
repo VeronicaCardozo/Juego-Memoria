@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="HTML5,css3,javascript" />
+    <title>NENAPU</title>
+    <link rel="stylesheet" href="miestilo.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="titulo">
+        <h1 class="t-1">Juego de la Memoria</h1>
+        <h2 class="t-2">"NENAPU"</h2>
+      </div>
+    </header>
+    <main>
+      <section class="section1">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-2">
+              <button class="imagen" id="0" onClick="destapar(0)"></button>
+            </div>
+            <div class="col-2">
+              <button class="imagen" id="1" onClick="destapar(1)"></button>
+            </div>
+            <div class="col-2">
+              <button class="imagen" id="2" onClick="destapar(2)"></button>
+            </div>
+            <div class="col-2">
+              <button class="imagen" id="3" onClick="destapar(3)"></button>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-2">
+              <button class="imagen" id="4" onClick="destapar(4)"></button>
+            </div>
+            <div class="col-2">
+              <button class="imagen" id="5" onClick="destapar(5)"></button>
+            </div>
+            <div class="col-2">
+              <button class="imagen" id="6" onClick="destapar(6)"></button>
+            </div>
+            <div class="col-2">
+              <button class="imagen" id="7" onClick="destapar(7)"></button>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-2">
+              <button class="imagen" id="8" onClick="destapar(8)"></button>
+            </div>
+            <div class="col-2">
+              <button class="imagen" id="9" onClick="destapar(9)"></button>
+            </div>
+            <div class="col-2">
+              <button class="imagen" id="10" onClick="destapar(10)"></button>
+            </div>
+            <div class="col-2">
+              <button class="imagen" id="11" onClick="destapar(11)"></button>
+            </div>
+          </div>
+        </div>
+        <br />
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-2">
+              <button class="imagen" id="12" onClick="destapar(12)"></button>
+            </div>
+            <div class="col-2">
+              <button class="imagen" id="13" onClick="destapar(13)"></button>
+            </div>
+            <div class="col-2">
+              <button class="imagen" id="14" onClick="destapar(14)"></button>
+            </div>
+            <div class="col-2">
+              <button class="imagen" id="15" onClick="destapar(15)"></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br />
+      <section class="section2">
+       
+        <button class="nuevo" id="jugar">Jugar nuevamente</button> 
+        <h2 id="aciertos" class="estadisticas">Aciertos: 0</h2>
+        <h2 id="tiempo" class="estadisticas">Tiempo: 30 segundos</h2>
+        <h2 id="movimientos" class="estadisticas">Movimientos: 0</h2>
+      </section>
+    </main>
+    <footer>
+      <div class="piedepagina">
+        <h2>Veronica Cardozo</h2>
+      </div>
+    </footer>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

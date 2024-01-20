@@ -1,0 +1,116 @@
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  box-sizing: border-box;
+ 
+ background-image: url(./imagenes/2352.jpg);
+ background-position: center;
+ background-size: cover;
+  background-repeat: no-repeat;
+ 
+  
+}
+main {
+  width: 730px;
+  margin-top: 50px;
+  margin-left: 23%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section1 {
+  width: 100%;
+  height: 100%;
+  padding: 0 10px 10px 10px;
+}
+.t-1 {
+color: white;
+margin-top: 15px ;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  font-size: 25px;
+  
+}
+.t-2 {
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    font-weight: bold;
+    margin-top: 20px;
+  font-family: sans-serif;
+  text-decoration-line: underline overline;
+  text-align: center;
+ 
+}
+
+button {
+  height: 100px;
+  width: 100%;
+  border: 3px solid black;
+  display: flex;
+  font-size: 40px;
+  background-color: white;
+  margin-left: 15px;
+  border-radius: 20%;
+}
+.imagen{
+  width: 125%;
+ 
+}
+img{
+  margin-top: 10px;
+  align-items: center;
+  width: 110%;
+}
+/* .memoria {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+  border-radius: 20%;
+  border-color: white;
+} */
+button:hover {
+  cursor: pointer;
+}
+.section2 {
+  width: 250px;
+  height: 100%;
+ 
+}
+.estadisticas {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  padding: 8px 20px;
+  align-items: center;
+  margin-top: 5px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: bold;
+  border: 5px solid white;
+  border-radius: 8px;
+  color: white;
+}
+.nuevo{
+  width: 100%;
+  height: 80px;
+  display: flex;
+  padding: 8px 20px;
+  align-items: center;
+  margin-top: 5px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: bold;
+  border: 5px solid white;
+  border-radius: 8px;
+  color: black;
+}
+footer {
+  width: 100%;
+  height: 80px;
+  color: white;
+  margin-top: 30px;
+  text-align: center;
+}
